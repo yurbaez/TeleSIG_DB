@@ -4,5 +4,5 @@ En este proyecto se alojan los ejercicios del curso Bases de Datos Relacionales 
 Crear archivos:
 
 Para crear el archivo deben dar click en el botón "Create new file":
-Subir el archivo con el script SQL generado en la herramienta DB Workshop.
+A continuación pegar el contenido del script SQL generado en la herramienta DB Workshop.
 Luego de pegar el script SQL dar click en el botón "Commit new file", ubicado al final de la página.
