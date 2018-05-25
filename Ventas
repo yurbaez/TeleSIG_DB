@@ -1,0 +1,9 @@
+CREATE TABLE Ventas (
+  id_tienda BigInt(6) NOT NULL,
+  num_orden VarChar(18) NOT NULL,
+  fecha     Date NOT NULL, 
+  PRIMARY KEY (
+      id_tienda
+  )
+) ;
+ALTER TABLE Ventas COMMENT = '';
