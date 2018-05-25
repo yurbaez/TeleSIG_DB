@@ -1,0 +1,8 @@
+CREATE TABLE biografias (
+  id_autor  NVarChar(12) COLLATE utf8_general_ci NOT NULL,
+  biografia MediumText CHARACTER SET utf8 COLLATE utf8_general_ci, 
+  PRIMARY KEY (
+      id_autor
+  )
+) ENGINE=InnoDB ROW_FORMAT=DYNAMIC DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE biografias COMMENT = '';
