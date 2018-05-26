@@ -1,0 +1,13 @@
+CREATE TABLE detalle_venta (
+  id_tienda BigInt(6) NOT NULL,
+  num_orden NVarChar(20) COLLATE utf8_general_ci NOT NULL,
+  id_titulo NVarChar(8) COLLATE utf8_general_ci NOT NULL,
+  cantidad  BigInt(4),
+  descuento BigInt(2), 
+  PRIMARY KEY (
+      id_tienda, 
+      num_orden, 
+      id_titulo
+  )
+) ENGINE=InnoDB ROW_FORMAT=DYNAMIC DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE detalle_venta COMMENT = '';
